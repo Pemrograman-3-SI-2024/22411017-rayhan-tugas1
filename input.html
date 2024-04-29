@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input</title>
+
+    <style>
+        body{font-family:arial; font-size:16px; text-align: center;}
+        .form{
+            width:750px; height: 200px; align-items: center; justify-content: center; flex-direction:row;
+        }
+        button{
+            color:white; background-color:blue; font-weight: bold; padding: 10px; margin: 20px; border-radius: 20px; transition: transform 80ms ease-in; cursor: pointer; border:1px solid;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h2>Input Musik</h2>
+    <form>
+        <p>Link Musik :
+        <input type="text">
+        <p>Judul Musik :
+        <input type="text">
+        <p>Artis/Band :
+        <input type="text">
+        <p>Genre
+            <select>
+            <optgroup label="Rock">
+                <option value="Hardrock">Hardrock</option>
+                <option value="Metal">Metal</option>
+                <option value="Punk">Punk</option>
+                <option value="Alternative">Alternative</option>
+            </optgroup>
+                <optgroup label="Popular">
+                <option value="Pop">Pop</option>
+                <option value="Hip-Hop">Hip-Hop</option>
+                <option value="Jazz">Jazz</option>
+                <option value="Soul">Soul</option>
+                </optgroup>
+            </select>
+     </form>
+    
+    <a href="halaman.html"><button type="button">Kembali</button></a>
+    <a href="tabel.html"><button type="button">Simpan</button></a>
+</body>
+</html>
